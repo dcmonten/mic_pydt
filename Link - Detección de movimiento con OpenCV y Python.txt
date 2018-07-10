@@ -1,0 +1,4 @@
+https://programarfacil.com/blog/vision-artificial/deteccion-de-movimiento-con-opencv-python/
+
+Método basado en la substracción del fondo (tomar una imagen de una escena sin movimiento y restar los sucesivos 
+fotogramas que vamos obteniendo de un vídeo) y la detección de movimiento.
