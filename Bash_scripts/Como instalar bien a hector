@@ -1,0 +1,18 @@
+Pasos de instalacion: 
+
+Copien el script de bash en el src de su directorio catkin_ws y ejecuten los siguientes comandos:
+
+1.- chmod +x instalar_hector.sh
+2.- ./instalar_hector.sh
+
+con eso se instalara hector y sus dependencias necesarias
+
+despues ejecuten estos comandos para poder ejecutar a hector:
+
+3.- cd ~/catkin_ws
+4. catkin_make
+5. source devel/setup.bash
+
+finalmente, pueden ejecutar a hector:
+
+6. roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
