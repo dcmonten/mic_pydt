@@ -1,0 +1,15 @@
+Para manejar a hector se necesita hacer dos cosas, tener el operador y activar sus motores
+
+*********Como activar los motores de HEctor
+
+	1. Abrir una nueva terminal: ctrl+alt+T
+	2. Abrir el workspace de ros: cd ~/catkin_ws
+	3. Ejecutar el comando: source devel/setup.bash
+	4. Habilitar el motor con el comando: rosservice call enable_motors true 
+
+*********Control para hector
+
+	1. Instalar: sudo apt-get install ros-kinetic-teleop-twist-keyboard
+	2. Ejecutar: rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
+
+
