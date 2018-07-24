@@ -16,3 +16,6 @@ despues ejecuten estos comandos para poder ejecutar a hector:
 finalmente, pueden ejecutar a hector:
 
 6. roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
+
+
+
