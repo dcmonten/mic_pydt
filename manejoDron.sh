@@ -16,11 +16,11 @@ rosservice call enable_motors true
 #	*********Control para hector
 
 #Instalar
-echo "sudo apt-get install ros-kinetic-teleop-twist-keyboard"
-sudo apt-get install ros-kinetic-teleop-twist-keyboard
-
+echo "Descomentar la linea 19 para instalar en caso de fallo"
+#sudo apt-get install ros-kinetic-teleop-twist-keyboard
+clear
 #Ejecutar
-echo "rosrun teleop_twist_keyboard teleop_twist_keyboard.py "
+echo "**********Teleop Twist Keyboard************************ "
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
 
 
